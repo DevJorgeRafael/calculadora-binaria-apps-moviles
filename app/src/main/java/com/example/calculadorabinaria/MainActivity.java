@@ -61,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
     public void onBorrarClick(View v) {
         String resultado = lblResultado.getText().toString();
 
+        if ( resultado.startsWith("C") ) {
+            lblResultado.setText("0");
+            return;
+        }
+
         if (!resultado.isEmpty()) {
             resultado = resultado.substring(0, resultado.length() - 1);
         }
