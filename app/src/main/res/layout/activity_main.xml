@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="110dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="244dp"
+        android:backgroundTint="#FFBD73"
+        android:onClick="onLimpiarClick"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <TextView
+        android:id="@+id/lblOperando"
+        android:layout_width="261dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="604dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="#959090"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="112dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="124dp"
+        android:onClick="onSumarClick"
+        android:text="+"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="299dp"
+        android:layout_height="108dp"
+        android:layout_marginBottom="496dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="96sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="124dp"
+        android:onClick="onRestarClick"
+        android:text="-"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <Button
+        android:id="@+id/btnIgual"
+        android:layout_width="241dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="368dp"
+        android:backgroundTint="#536493"
+        android:onClick="onIgualClick"
+        android:text="="
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <Button
+        android:id="@+id/btnUno"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onUnoClick"
+        android:text="1"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onBorrarClick"
+        android:text="⌫"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <Button
+        android:id="@+id/btnCero"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onCeroClick"
+        android:text="0"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="244dp"
+        android:onClick="onDividirClick"
+        android:text="/"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="124dp"
+        android:onClick="onMultiplicarClick"
+        android:text="*"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultado" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="By: Jorge Rosero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
