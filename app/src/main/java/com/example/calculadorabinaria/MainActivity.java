@@ -61,8 +61,9 @@ public class MainActivity extends AppCompatActivity {
     public void onBorrarClick(View v) {
         String resultado = lblResultado.getText().toString();
 
-        if ( resultado.startsWith("C") ) {
+        if ( resultado.startsWith("C") || resultado.isEmpty() ) {
             lblResultado.setText("0");
+            cambiarFontsize();
             return;
         }
 
@@ -75,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         lblResultado.setText(resultado);
-        chambiarFontsize();
+        cambiarFontsize();
     }
 
 
@@ -85,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             lblResultado.setText( lblResultado.getText() + "1" );
         }
-        chambiarFontsize();
+        cambiarFontsize();
     }
 
     public void onCeroClick(View v){
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             lblResultado.setText( lblResultado.getText() + "0" );
         }
-        chambiarFontsize();
+        cambiarFontsize();
     }
 
     public void onSumarClick(View v) {
@@ -130,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("MiApp", "Respuesta: " + respuesta);
 
         lblResultado.setText(respuesta);
-        chambiarFontsize();
+        cambiarFontsize();
     }
 
     private String obtenerRespuesta(){
@@ -159,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
     private void restablecerResultado(){
         lblResultado.setText("0");
     }
+
     private void establecerOperandoConResultado() {
         lblOperando.setText( lblResultado.getText() );
         restablecerResultado();
@@ -168,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
         lblOperando.setText("0");
     }
 
-    private void chambiarFontsize() {
+    private void cambiarFontsize() {
         int lenghtResultado = lblResultado.getText().length();
         if ( lenghtResultado > 16 ) {
             lblResultado.setTextSize(24);
