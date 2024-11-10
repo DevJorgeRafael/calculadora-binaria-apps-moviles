@@ -101,34 +101,33 @@ public class MainActivity extends AppCompatActivity {
     public void onSumarClick(View v) {
         if( lblResultado.getText().equals("0") || lblResultado.getText().equals("Can't Divide by zero")) return;
 
+        this.operador = 1;
         establecerOperandoConResultado();
-        operador = 1;
     }
 
     public void onRestarClick(View v) {
         if( lblResultado.getText().equals("0") || lblResultado.getText().equals("Can't Divide by zero")) return;
 
+        this.operador = 2;
         establecerOperandoConResultado();
-        operador = 2;
     }
 
     public void onMultiplicarClick(View v) {
         if( lblResultado.getText().equals("0") || lblResultado.getText().equals("Can't Divide by zero")) return;
 
+        this.operador = 3;
         establecerOperandoConResultado();
-        operador = 3;
     }
 
     public void onDividirClick(View v) {
         if( lblResultado.getText().equals("0") || lblResultado.getText().equals("Can't Divide by zero")) return;
 
+        this.operador = 4;
         establecerOperandoConResultado();
-        operador = 4;
     }
 
     public void onIgualClick(View v) {
         String respuesta = obtenerRespuesta();
-        Log.d("MiApp", "Respuesta: " + respuesta);
 
         lblResultado.setText(respuesta);
         cambiarFontsize();
@@ -138,8 +137,9 @@ public class MainActivity extends AppCompatActivity {
         if( operador == 0 ) return "0";
 
         int resultado = 0;
+        String stringOperando1 = lblOperando.getText().toString().substring(0, lblOperando.getText().length() - 1);
 
-        int operando1 = Integer.parseInt( lblOperando.getText().toString(), 2 );
+        int operando1 = Integer.parseInt( stringOperando1, 2 );
         if ( lblResultado.getText().equals("Can't Divide by zero") ) return "Can't Divide by zero";
         int operando2 = Integer.parseInt( lblResultado.getText().toString(), 2 );
 
@@ -162,7 +162,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void establecerOperandoConResultado() {
-        lblOperando.setText( lblResultado.getText() );
+        String stringOperador = "";
+        switch ( this.operador ) {
+            case 1:
+                stringOperador = "+";
+                break;
+            case 2:
+                stringOperador = "-";
+                break;
+            case 3:
+                stringOperador = "*";
+                break;
+            case 4:
+                stringOperador = "/";
+                break;
+        }
+
+        lblOperando.setText( lblResultado.getText() + stringOperador );
         restablecerResultado();
     }
     public void onLimpiarClick(View v) {
