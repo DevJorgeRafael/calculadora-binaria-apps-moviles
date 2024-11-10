@@ -6,37 +6,24 @@ Este proyecto es una calculadora binaria creada para la asignatura de aplicacion
 
 A continuación, algunas capturas de pantalla de la calculadora en funcionamiento:
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-  <!-- Fila 1 -->
-  <div style="flex: 1 1 30%; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
-    <div><strong>Pantalla Principal</strong></div>
-    <img src="assets/pantalla_principal.jpg" alt="Pantalla principal" width="200">
-  </div>
-  <div style="flex: 1 1 30%; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
-    <div><strong>Operación de Suma</strong></div>
-    <img src="assets/operacion_suma.jpg" alt="Operación de suma" width="200">
-  </div>
-  <div style="flex: 1 1 30%; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
-    <div><strong>Operación de Resta</strong></div>
-    <img src="assets/operacion_resta.jpg" alt="Operación de resta" width="200">
-  </div>
-</div>
+### Pantalla principal
+<img src="assets/pantalla_principal.jpg" alt="Pantalla principal" width="300">
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; justify-content: space-between;">
-  <!-- Fila 2 -->
-  <div style="flex: 1 1 30%; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
-    <div><strong>Operación de Multiplicación</strong></div>
-    <img src="assets/operacion_multiplicar.jpg" alt="Operación de multiplicación" width="200">
-  </div>
-  <div style="flex: 1 1 30%; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
-    <div><strong>Operación de División</strong></div>
-    <img src="assets/operacion_dividir.jpg" alt="Operación de división" width="200">
-  </div>
-  <div style="flex: 1 1 30%; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;">
-    <div><strong>Validación al Dividir entre 0</strong></div>
-    <img src="assets/validar_division_0.jpg" alt="Validación al dividir entre 0" width="200">
-  </div>
-</div>
+### Operación de suma
+<img src="assets/operacion_suma.jpg" alt="Operación de suma" width="300">
+
+### Operación de resta
+<img src="assets/operacion_resta.jpg" alt="Operación de resta" width="300">
+
+### Operación de multiplicación
+<img src="assets/operacion_multiplicar.jpg" alt="Operación de multiplicación" width="300">
+
+### Operación de división
+<img src="assets/operacion_dividir.jpg" alt="Operación de división" width="300">
+
+### Validación al dividir entre 0
+<img src="assets/validar_division_0.jpg" alt="Validación al dividir entre 0" width="300">
+
 
 ## Cómo utilizar
 
