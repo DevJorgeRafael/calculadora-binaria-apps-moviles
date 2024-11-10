@@ -7,22 +7,22 @@ Este proyecto es una calculadora binaria creada para la asignatura de aplicacion
 A continuación, algunas capturas de pantalla de la calculadora en funcionamiento:
 
 ### Pantalla principal
-![Pantalla principal](assets/pantalla_principal.jpg)
+<img src="assets/pantalla_principal.jpg" alt="Pantalla principal" width="300">
 
 ### Operación de suma
-![Operación de suma](assets/operacion_suma.jpg)
+<img src="assets/operacion_suma.jpg" alt="Operación de suma" width="300">
 
 ### Operación de resta
-![Operación de resta](assets/operacion_resta.jpg)
+<img src="assets/operacion_resta.jpg" alt="Operación de resta" width="300">
 
 ### Operación de multiplicación
-![Operación de multiplicación](assets/operacion_multiplicar.jpg)
+<img src="assets/operacion_multiplicar.jpg" alt="Operación de multiplicación" width="300">
 
 ### Operación de división
-![Operación de división](assets/operacion_dividir.jpg)
+<img src="assets/operacion_dividir.jpg" alt="Operación de división" width="300">
 
 ### Validación al dividir entre 0
-![Validación al dividir entre 0](assets/validar_division_0.jpg)
+<img src="assets/validar_division_0.jpg" alt="Validación al dividir entre 0" width="300">
 
 ## Cómo utilizar
 
