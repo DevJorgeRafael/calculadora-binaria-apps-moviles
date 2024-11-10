@@ -6,7 +6,7 @@ Este proyecto es una calculadora binaria creada para la asignatura de aplicacion
 
 A continuación, algunas capturas de pantalla de la calculadora en funcionamiento:
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10;">
   <img src="assets/pantalla_principal.jpg" alt="Pantalla principal" width="200">
   <img src="assets/operacion_suma.jpg" alt="Operación de suma" width="200">
   <img src="assets/operacion_resta.jpg" alt="Operación de resta" width="200">
