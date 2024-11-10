@@ -1,4 +1,4 @@
-# Calculadora Binaria - Apps Móviles
+# Calculadora Binaria - Apps Móviles - Jorge Rosero
 
 Este proyecto es una calculadora binaria creada para la asignatura de aplicaciones móviles. La calculadora permite realizar operaciones básicas como suma, resta, multiplicación y división en formato binario.
 
