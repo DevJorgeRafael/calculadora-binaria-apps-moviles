@@ -7,17 +7,37 @@ Este proyecto es una calculadora binaria creada para la asignatura de aplicacion
 A continuación, algunas capturas de pantalla de la calculadora en funcionamiento:
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <div style="display: flex; gap: 20px; width: 100%;">
+  <!-- Fila 1 -->
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <div><strong>Pantalla Principal</strong></div>
     <img src="assets/pantalla_principal.jpg" alt="Pantalla principal" width="200">
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <div><strong>Operación de Suma</strong></div>
     <img src="assets/operacion_suma.jpg" alt="Operación de suma" width="200">
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <div><strong>Operación de Resta</strong></div>
     <img src="assets/operacion_resta.jpg" alt="Operación de resta" width="200">
   </div>
-  <div style="display: flex; gap: 20px; width: 100%;">
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+  <!-- Fila 2 -->
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <div><strong>Operación de Multiplicación</strong></div>
     <img src="assets/operacion_multiplicar.jpg" alt="Operación de multiplicación" width="200">
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <div><strong>Operación de División</strong></div>
     <img src="assets/operacion_dividir.jpg" alt="Operación de división" width="200">
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <div><strong>Validación al Dividir entre 0</strong></div>
     <img src="assets/validar_division_0.jpg" alt="Validación al dividir entre 0" width="200">
   </div>
 </div>
+
 
 
 ## Cómo utilizar
