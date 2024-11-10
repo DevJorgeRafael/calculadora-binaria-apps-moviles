@@ -6,23 +6,14 @@ Este proyecto es una calculadora binaria creada para la asignatura de aplicacion
 
 A continuación, algunas capturas de pantalla de la calculadora en funcionamiento:
 
-### Pantalla principal
-<img src="assets/pantalla_principal.jpg" alt="Pantalla principal" width="300">
-
-### Operación de suma
-<img src="assets/operacion_suma.jpg" alt="Operación de suma" width="300">
-
-### Operación de resta
-<img src="assets/operacion_resta.jpg" alt="Operación de resta" width="300">
-
-### Operación de multiplicación
-<img src="assets/operacion_multiplicar.jpg" alt="Operación de multiplicación" width="300">
-
-### Operación de división
-<img src="assets/operacion_dividir.jpg" alt="Operación de división" width="300">
-
-### Validación al dividir entre 0
-<img src="assets/validar_division_0.jpg" alt="Validación al dividir entre 0" width="300">
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="assets/pantalla_principal.jpg" alt="Pantalla principal" width="200">
+  <img src="assets/operacion_suma.jpg" alt="Operación de suma" width="200">
+  <img src="assets/operacion_resta.jpg" alt="Operación de resta" width="200">
+  <img src="assets/operacion_multiplicar.jpg" alt="Operación de multiplicación" width="200">
+  <img src="assets/operacion_dividir.jpg" alt="Operación de división" width="200">
+  <img src="assets/validar_division_0.jpg" alt="Validación al dividir entre 0" width="200">
+</div>
 
 ## Cómo utilizar
 
@@ -36,7 +27,6 @@ Instrucciones para utilizar la calculadora:
 
 - **Android Studio**: Entorno de desarrollo utilizado.
 - **Java**: Lenguaje de programación utilizado.
-- **Otros**: Herramientas y bibliotecas adicionales que fueron necesarias.
 
 ## Instalación
 
